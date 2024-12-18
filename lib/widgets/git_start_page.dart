@@ -28,10 +28,11 @@ class GitStartPage extends ConsumerWidget {
     > git add "파일"    # 깃을 스테이지에 올린다. 버전 관리 하겠다는 뜻이다. 
     > git restore "파일"    # 수정된 내용을 되돌린다. 
     > git restore --staged "파일"   # 스테이징 된 파일을 언스테이징 한다. 
+    > git reset HEAD^     # 최근 커밋 되돌리기기, 또는 git reset --hart "커밋해시" 명령으로 특정 커밋으로 되돌린다. 
     > git commit -m "메시지"    # 스테이징한 파일들에 버전을 부여한다. -am 옵션은 스테이징을 포함한다.
     > git push    # 커밋한 버전을 원격저장소에 밀어 넣는다. 
     > git log     # 커밋 기록을 보여준다
-    > git diff    # 변경사항 확인하기. 좀 어렵다. vscode 에서 확인하는게 좋겠다다
+    > git diff    # 변경사항 확인하기. 좀 어렵다. vscode 에서 확인하는게 좋겠다 
 '''),
         ));
   }
