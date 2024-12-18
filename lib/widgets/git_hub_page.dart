@@ -64,6 +64,13 @@ class GitHubPage extends ConsumerWidget {
               '\r\n내가 생각하기에 윈도우환경은 https 리눅스 환경은 ssh를 쓰는게 편한다다'
               ),
             ),
+            const ListTile(
+              leading: Icon(Icons.horizontal_rule_rounded),
+              title: Text('협업하기', style: TextStyle(fontWeight: FontWeight.bold),),
+              subtitle: Text('깃허브에서 공동 작업자를 추가 할 수있다. '
+              '\r\n[지역저장소] << pull [원격저장소]'
+              ),
+            ),
           ],
         ));
   }
