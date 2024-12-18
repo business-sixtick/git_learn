@@ -13,6 +13,8 @@
 - flutter doctor
 - flutter build web
 - 웹 테스트 flutter run -d chrome
+- flutter build web --base-href="/docs/" 
+- move build\web\* C:\source\git_learn\docs      // 윈도우우
 
 
 
