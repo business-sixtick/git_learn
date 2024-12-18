@@ -6,6 +6,8 @@
 - flutter create .
 - flutter pub get
 - flutter pub add flutter_riverpod
+- flutter pub add window_size
+- flutter pub add url_launcher
 
 # 배포 
 - flutter doctor
@@ -15,4 +17,5 @@
 
 
 # 라이센스 MIT
-- 추가되는 라이브러리에 대한 라이센스 내용을 추가한다. 
+- 추가되는 라이브러리에 대한 라이센스 내용을 추가한다.
+- 
