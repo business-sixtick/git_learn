@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:git_learn/widgets/github_pages_page.dart';
 
 import 'git_start_page.dart';
 import 'git_branch_page.dart';
@@ -88,6 +89,24 @@ class MainPage extends ConsumerWidget {
                     builder: (context) {
                       return const FractionallySizedBox(
                           widthFactor: 1, child: GitHubPage());
+                    });
+              },
+            ),
+            ListTile(
+              leading: const Icon(
+                Icons.circle,
+                size: 10,
+              ),
+              title: const Text('Github Pages'),
+              onTap: () {
+                Navigator.pop(context); // Drawer 닫기
+                showModalBottomSheet(
+                    isScrollControlled: true,
+                    // enableDrag: false,
+                    context: context,
+                    builder: (context) {
+                      return const FractionallySizedBox(
+                          widthFactor: 1, child: GitHubPagesPage());
                     });
               },
             ),

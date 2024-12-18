@@ -68,7 +68,7 @@ class GitHubPage extends ConsumerWidget {
               leading: Icon(Icons.horizontal_rule_rounded),
               title: Text('협업하기', style: TextStyle(fontWeight: FontWeight.bold),),
               subtitle: Text('깃허브에서 공동 작업자를 추가 할 수있다. '
-              '\r\n[지역저장소] << pull [원격저장소]'
+              '\r\n깃허브의 풀리퀘스트를 활용해서 머지를 요청 할 수 있다. (고로 branch를 각자 다르게 가져가고 책임자가 main에 합친다. 그 주기를 짧게 가져가서 협업을 더 원활히 할 수 있다.)'
               ),
             ),
           ],
