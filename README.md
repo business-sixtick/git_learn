@@ -6,6 +6,8 @@
 - flutter create .
 - flutter pub get
 - flutter pub add flutter_riverpod
+- flutter pub add window_size
+- flutter pub add url_launcher
 
 # 배포 
 - flutter doctor

@@ -38,3 +38,8 @@ This project uses the following open-source libraries:
    License: Apache License 2.0
    Copyright (c) [window_size authors]
    [License Details](https://pub.dev/packages/window_size/license)
+
+2. url_launcher
+   License: BSD-3-Clause
+   Copyright 2013 The Flutter Authors. All rights reserved.
+   [License Details](https://pub.dev/packages/url_launcher/license)

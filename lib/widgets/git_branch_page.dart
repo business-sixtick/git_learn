@@ -24,7 +24,10 @@ class GitBranchPage extends ConsumerWidget {
     > git branch "이름"   # 이름에 해당하는 새로운 브랜치를 생성한다. 
     > git switch "브랜치명"   # 브랜치를 전환 한다. (예전에는 checkout을 주로 사용하였다)
     > git log --oneline --branches --graph    # 커밋과 브랜치간의 관계를 선으로 표현해줌
-    > git log "브랜치명".."브랜치명"    # 두 브랜치간에 차이점을 보여줌 (안되는데??)
+    > git log "브랜치명".."브랜치명"    # 두 브랜치간에 차이점을 보여줌 
+    > git merge "병합할브랜치명"    # 해당 브랜치와 병합한다. 대게 현재 브랜치를 main으로 둔다. 충돌이 있지 않으면 자동 병합해준다. 
+    > git branch -d "삭제할브랜치명"    # 해당 브랜치를 삭제한다. 병합하지 않은 브랜치를 강제로 삭제하려면 -D 옵션을 주면 된다. 
+    > git cherry-pick "병합할브랜치의커밋해시"    # 특정 커밋 위치와 병합 함. 
 '''),
         ));
   }
