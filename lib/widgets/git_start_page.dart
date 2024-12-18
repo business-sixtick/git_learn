@@ -10,6 +10,7 @@ class GitStartPage extends ConsumerWidget {
   Widget build(BuildContext context, WidgetRef ref) {
     return Scaffold(
         appBar: AppBar(
+          backgroundColor: Theme.of(context).colorScheme.inversePrimary,
           title: const Text('Git Start'),
         ),
         body: const Padding(
@@ -33,6 +34,7 @@ class GitStartPage extends ConsumerWidget {
     > git push    # 커밋한 버전을 원격저장소에 밀어 넣는다. 
     > git log     # 커밋 기록을 보여준다 --oneline 옵션을 붙이면 커밋당 한줄씩 보여준다.
     > git diff    # 변경사항 확인하기. 좀 어렵다. vscode 에서 확인하는게 좋겠다 
+    
 '''),
         ));
   }
