@@ -13,10 +13,7 @@
 - flutter doctor
 - flutter build web
 - 웹 테스트 flutter run -d chrome
-- flutter build web --base-href="/git_learn/" 
-- del C:\source\git_learn\docs\*
-- move build\web\* C:\source\git_learn\docs      // 윈도우
-- 
+- flutter build web --base-href="/git_learn/" -o docs   // -o 옵션으로 아웃풋 위치를 지정함
 
 
 

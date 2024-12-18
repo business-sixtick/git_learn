@@ -20,7 +20,7 @@ class MainPage extends ConsumerWidget {
         title: const Text('Git Learn'),
         // automaticallyImplyLeading: false, // Drawer 버튼 없애기
       ),
-      body: const Text('body'),
+      body: const Center(child: const Text('깃허브를 \r\n\r\n배워 봅시다', style: TextStyle(fontSize: 50, fontWeight: FontWeight.bold),)),
       drawer: Drawer(
         child: ListView(
           children: [
