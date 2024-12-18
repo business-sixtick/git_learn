@@ -52,6 +52,7 @@ class GitHubPage extends ConsumerWidget {
               '\r\n> git pull origin main      # 원격지에서 main 브랜치로 땡겨온다. 브랜치가 main으로 되어있다면 그냥 git pull만 써도된다.'
               '\r\n> git clone "원격저장소https주소"      # 원격지의 프로젝트를 받아온다. 기본적으로 현재 폴더에 프로젝트명으로 폴더가 생긴다.'
               '\r\n> git fetch      # 원격지의 변경내용를 보여준다. 대게 push 하기전에 쓴다.'
+              '\r\n> git diff HEAD origin/main      # 원격지와 로컬의 커밋을 비교한다'
               ),
             ),
             const ListTile(
