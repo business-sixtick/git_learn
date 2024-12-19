@@ -14,7 +14,7 @@
 - flutter build web
 - 웹 테스트 flutter run -d chrome
 - flutter build web --base-href="/git_learn/" -o docs   // -o 옵션으로 아웃풋 위치를 지정함
-
+- https://business-sixtick.github.io/git_learn/
 
 
 # 라이센스 MIT
